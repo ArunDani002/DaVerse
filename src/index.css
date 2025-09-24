@@ -1,0 +1,74 @@
+
+.Navbar ul li {
+    margin: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.Navbar ul li a{
+    text-decoration: none;
+    color: black; 
+}
+
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 10px;
+}
+
+
+
+.Navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.contactLink{
+    /* border: 1px solid black; */
+    width: 200px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: #000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+.contactLink:hover{
+    background: #000;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.wallLogo{
+    width: 600px;
+}
+
+.Heading{
+    transition: 1s;
+}
+
+.Heading:hover{
+    font-size: 45px;
+}
+
+.content-wid{
+    /* border: 1px solid black; */
+    width: 1200px;
+    font-size: 17px;
+}   
+

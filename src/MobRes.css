@@ -1,0 +1,44 @@
+
+@media (max-width: 470px){
+    .navbar ul li a{
+        font-size: 10px;
+    }
+
+    .Heading{
+        /* border: 1px solid black; */
+        width: 350px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .wallLogo{
+        /* border: 1px solid black; */
+        width: 200px;
+        display: block;
+        margin-left: 90px !important;
+
+    }
+
+    .changingflex{
+        display: block !important;
+    }
+    .titDesc{
+        margin-top: -50px !important;
+        font-size: 13px;
+    }
+
+    .content-wid{
+        width: 300px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    .navbar-ul{
+        /* border: 1px solid black; */
+        width: 370px;
+    }
+    .navbar-ul li{
+        margin: 10px !important;
+        font-size: 14px  !important;
+    }
+}
