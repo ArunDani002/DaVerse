@@ -32,7 +32,7 @@ const NavBar = () => {
             color: '#00ff99',
             fontSize: '28px',
             letterSpacing: '2px',
-            textShadow: '0 0 10px #00ff99, 0 0 20px #00bcd4',
+            // textShadow: '0 0 5px #00ff99, 0 0 10px #00bcd4',
             cursor: 'pointer',
             transition: 'transform 0.3s',
           }}

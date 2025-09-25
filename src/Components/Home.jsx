@@ -7,7 +7,7 @@ const Home = () => {
     <div
       style={{
         minHeight: '100vh',
-        backgroundColor: '#0d0d0d',
+        backgroundColor: '#ffffffff',
         color: '#e0e0e0',
         fontFamily: '"Comic Sans MS", cursive, sans-serif',
         padding: '0 20px',
@@ -23,9 +23,9 @@ const Home = () => {
           style={{
             fontSize: '60px',
             marginBottom: '10px',
-            color: '#ffeb3b',
+            color: '#000000ff',
             // textShadow: '0 0 20px #ffeb3b, 0 0 40px #ff5722',
-            animation: 'bounce 5s infinite',
+            // animation: 'bounce 5s infinite',
           }}
         >
           Your Vision, Our Expertise
@@ -33,8 +33,8 @@ const Home = () => {
         <h2
           style={{
             fontSize: '36px',
-            color: '#00ff99',
-            textShadow: '0 0 1px #00ff99, 0 0 25px #00bcd4',
+            color: '#007043ff',
+            // textShadow: '0 0 1px #00ff99, 0 0 2px #00bcd4',
           }}
         >
           Crafting Digital Solutions
@@ -42,12 +42,12 @@ const Home = () => {
         <p
           style={{
             fontSize: '20px',
-            color: '#aaa',
+            color: '#676767ff',
             maxWidth: '700px',
             margin: '20px auto 40px auto',
           }}
         >
-          At <span style={{ color: '#00ff99', fontWeight: 'bold' }}>DaVerse</span>, we combine creativity with cutting-edge technology to deliver websites and mobile apps
+          At <span style={{ color: '#00c073ff', fontWeight: 'bold' }}>DaVerse</span>, we combine creativity with cutting-edge technology to deliver websites and mobile apps
           that help businesses thrive in the digital world. Whether you want a stunning website, a mobile app, or both, we bring your ideas to life.
         </p>
 
@@ -63,16 +63,16 @@ const Home = () => {
             padding: '15px 40px',
             borderRadius: '40px',
             textDecoration: 'none',
-            boxShadow: '0 0 2px #00ff99, 0 0 5px #00bcd4',
+            // boxShadow: '0 0 2px #00ff99, 0 0 5px #00bcd4',
             transition: 'all 0.3s',
           }}
           onMouseEnter={(e) => {
             e.target.style.transform = 'scale(1.1)';
-            e.target.style.boxShadow = '0 0 3px #00ff99, 0 0 30px #00bcd4';
+            e.target.style.boxShadow = '0 0 1px #00ff99, 0 0 10px #00bcd4';
           }}
           onMouseLeave={(e) => {
             e.target.style.transform = 'scale(1)';
-            e.target.style.boxShadow = '0 0 2px #00ff99, 0 0 25px #00bcd4';
+            e.target.style.boxShadow = '0 0 2px #00ff99, 0 0 12px #00bcd4';
           }}
         >
           Let’s Get Started
@@ -113,7 +113,7 @@ const Home = () => {
               backgroundColor: '#1a1a1a',
               borderRadius: '25px',
               padding: '25px',
-              boxShadow: `0 10px 25px ${feature.color}80`,
+              boxShadow: `0 5px 15px ${feature.color}80`,
               transition: 'transform 0.3s',
               cursor: 'pointer',
               textAlign: 'center',
