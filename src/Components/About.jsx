@@ -13,7 +13,7 @@ const About = () => {
       style={{
         backgroundColor: '#0d0d0d',
         color: '#e0e0e0',
-        fontFamily: '"Comic Sans MS", cursive, sans-serif',
+        // fontFamily: '"Comic Sans MS", cursive, sans-serif',
         padding: '60px 20px',
         lineHeight: '1.8',
         minHeight: '100vh',
@@ -26,8 +26,8 @@ const About = () => {
             fontSize: '46px',
             color: '#ffeb3b',
             marginBottom: '10px',
-            textShadow: '0 0 20px #ffeb3b, 0 0 40px #ff5722',
-            animation: 'bounce 2s infinite',
+            // textShadow: '0 0 20px #ffeb3b, 0 0 40px #ff5722',
+            // animation: 'bounce 2s infinite',
           }}
         >
           About DaVerse

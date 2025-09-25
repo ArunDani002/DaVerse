@@ -9,7 +9,7 @@ const Home = () => {
         minHeight: '100vh',
         backgroundColor: '#ffffffff',
         color: '#e0e0e0',
-        fontFamily: '"Comic Sans MS", cursive, sans-serif',
+        // fontFamily: '"Comic Sans MS", cursive, sans-serif',
         padding: '0 20px',
         display: 'flex',
         flexDirection: 'column',

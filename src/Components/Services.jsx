@@ -22,11 +22,29 @@ const Services = () => {
             animation: 'bounce 2s infinite',
           }}
         />
-        <h1
+
+        {/* <div style={{ textAlign: 'center', marginBottom: '50px' }}> */}
+        {/* <p style={{ color: '#aaa', fontSize: '18px', maxWidth: '800px', margin: '0 auto' }}>
+          Passion, innovation, and playful creativity define us. Here’s why DaVerse is your fun & friendly digital partner.
+        </p> */}
+      {/* </div> */}
+        {/* <h1
           style={{
             fontSize: '38px',
             color: '#00bcd4',
             letterSpacing: '2px',
+          }}
+        >
+          Our Services
+        </h1> */}
+
+        <h1
+          style={{
+            fontSize: '46px',
+            color: '#00bcd4',
+            marginBottom: '10px',
+            // textShadow: '0 0 20px #ffeb3b, 0 0 40px #ff5722',
+            // animation: 'bounce 2s infinite',
           }}
         >
           Our Services
@@ -35,11 +53,11 @@ const Services = () => {
           style={{
             maxWidth: '750px',
             margin: '10px auto 0 auto',
-            fontSize: '16px',
+            fontSize: '18px',
             color: '#aaa',
           }}
         >
-          At <span style={{ color: '#00ff99', fontWeight: 'bold' }}>DaVerse</span>, 
+          At <span style={{ color: '#00ff99', fontWeight: 'bold' }}>DAverse</span>, 
           we provide innovative solutions to help your business thrive in the digital age.
           Explore our main service areas below:
         </p>
