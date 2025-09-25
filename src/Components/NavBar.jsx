@@ -15,7 +15,7 @@ const NavBar = () => {
         top: 0,
         zIndex: 1000,
         boxShadow: '0 4px 15px rgba(0, 188, 212, 0.4)',
-        fontFamily: '"Comic Sans MS", cursive, sans-serif',
+        // fontFamily: '"Comic Sans MS", cursive, sans-serif',
       }}
     >
       <div
