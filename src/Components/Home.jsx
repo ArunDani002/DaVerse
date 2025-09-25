@@ -18,7 +18,7 @@ const Home = () => {
       }}
     >
       {/* Hero Section */}
-      <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+      <div style={{ textAlign: 'center', marginBottom: '50px', marginTop:'50px' }}>
         <h1
           style={{
             fontSize: '60px',
