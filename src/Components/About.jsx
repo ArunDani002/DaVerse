@@ -30,10 +30,10 @@ const About = () => {
             // animation: 'bounce 2s infinite',
           }}
         >
-          About DaVerse
+          About DAverse
         </h1>
         <p style={{ color: '#aaa', fontSize: '18px', maxWidth: '800px', margin: '0 auto' }}>
-          Passion, innovation, and playful creativity define us. Here’s why DaVerse is your fun & friendly digital partner.
+          Passion, innovation, and playful creativity define us. Here’s why DAverse is your fun & friendly digital partner.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ const About = () => {
       >
         <h2 style={{ color: '#00ff99', marginBottom: '15px' }}>Who We Are</h2>
         <p>
-          DaVerse is a startup with a love for technology and a playful approach to digital solutions. We craft websites and mobile apps that are functional, friendly, and fun to use!
+          DAverse is a startup with a love for technology and a playful approach to digital solutions. We craft websites and mobile apps that are functional, friendly, and fun to use!
         </p>
 
         <h2 style={{ color: '#00ff99', marginTop: '25px', marginBottom: '15px' }}>Our Mission</h2>
@@ -114,7 +114,7 @@ const About = () => {
 
       {/* Footer Note */}
       <p style={{ textAlign: 'center', fontSize: '16px', color: '#ffeb3b', textShadow: '0 0 10px #ffeb3b' }}>
-        ✨ Powered by <span style={{ color: '#00ff99' }}>DaVerse</span> | Making the digital world fun & colorful!
+        ✨ Powered by <span style={{ color: '#00ff99' }}>DAverse</span> | Making the digital world fun & colorful!
       </p>
 
       {/* Animations */}

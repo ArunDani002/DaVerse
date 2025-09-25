@@ -22,7 +22,7 @@ const Footer = () => {
           // animation: 'glow 2s infinite alternate',
         }}
       >
-        DaVerse
+        DAverse
       </h2>
       
 
@@ -67,7 +67,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div style={{ fontSize: '14px', color: '#838383ff' }}>
-        <p>© 2025 DaVerse. All Rights Reserved.</p>
+        <p>© 2025 DAverse. All Rights Reserved.</p>
       </div>
 
       {/* Animations */}

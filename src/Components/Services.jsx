@@ -15,7 +15,7 @@ const Services = () => {
       <div style={{ textAlign: 'center', marginBottom: '50px' }}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/2721/2721299.png"
-          alt="DaVerse Logo"
+          alt="DAverse Logo"
           style={{
             width: '90px',
             marginBottom: '15px',
@@ -25,7 +25,7 @@ const Services = () => {
 
         {/* <div style={{ textAlign: 'center', marginBottom: '50px' }}> */}
         {/* <p style={{ color: '#aaa', fontSize: '18px', maxWidth: '800px', margin: '0 auto' }}>
-          Passion, innovation, and playful creativity define us. Here’s why DaVerse is your fun & friendly digital partner.
+          Passion, innovation, and playful creativity define us. Here’s why DAverse is your fun & friendly digital partner.
         </p> */}
       {/* </div> */}
         {/* <h1
@@ -164,7 +164,7 @@ const Services = () => {
           color: '#666',
         }}
       >
-        ✨ Powered by <span style={{ color: '#00ff99' }}>DaVerse</span> | 
+        ✨ Powered by <span style={{ color: '#00ff99' }}>DAverse</span> | 
         Building the future, one project at a time.
       </p>
 

@@ -47,7 +47,7 @@ const Home = () => {
             margin: '20px auto 40px auto',
           }}
         >
-          At <span style={{ color: '#00c073ff', fontWeight: 'bold' }}>DaVerse</span>, we combine creativity with cutting-edge technology to deliver websites and mobile apps
+          At <span style={{ color: '#00c073ff', fontWeight: 'bold' }}>DAverse</span>, we combine creativity with cutting-edge technology to deliver websites and mobile apps
           that help businesses thrive in the digital world. Whether you want a stunning website, a mobile app, or both, we bring your ideas to life.
         </p>
 
