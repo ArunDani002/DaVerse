@@ -29,7 +29,7 @@ const Contact = () => {
     >
       {/* Header */}
       <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-        <h1 style={{ fontSize: '42px', color: '#00bcd4', textShadow: '0 0 15px #00bcd4' }}>Contact Us</h1>
+        <h1 style={{ fontSize: '42px', color: '#00bcd4', }}>Contact Us</h1>
         <p style={{ color: '#aaa', fontSize: '18px', maxWidth: '800px', margin: '0 auto' }}>
           We’d love to hear from you! Whether you’re interested in learning more about our services or ready to start your project, don’t hesitate to reach out.
         </p>
@@ -126,17 +126,17 @@ const Contact = () => {
               fontWeight: 'bold',
               border: 'none',
               cursor: 'pointer',
-              boxShadow: '0 0 20px #00bcd4',
+              boxShadow: '0 0 2px #00bcd4',
               transition: 'all 0.3s',
             }}
             onMouseEnter={(e) => {
               e.target.style.backgroundColor = '#00ff99';
-              e.target.style.boxShadow = '0 0 30px #00ff99';
+              // e.target.style.boxShadow = '0 0 30px #00ff99';
               e.target.style.transform = 'scale(1.05)';
             }}
             onMouseLeave={(e) => {
               e.target.style.backgroundColor = '#00bcd4';
-              e.target.style.boxShadow = '0 0 20px #00bcd4';
+              // e.target.style.boxShadow = '0 0 20px #00bcd4';
               e.target.style.transform = 'scale(1)';
             }}
           >
@@ -148,7 +148,7 @@ const Contact = () => {
         <div style={{ marginTop: '40px', color: '#aaa', fontSize: '16px' }}>
           <h3 style={{ color: '#00ff99' }}>Other Contact Details</h3>
           <p>Email: <span style={{ color: '#e0e0e0' }}>da.tech002@gmail.com</span></p>
-          <p>Phone: <span style={{ color: '#e0e0e0' }}>(+91 9600698331)</span></p>
+          <p>Phone: <span style={{ color: '#e0e0e0' }}>+91 9600698331</span></p>
         </div>
       </div>
     </div>

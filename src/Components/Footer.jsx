@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <div
       style={{
-        backgroundColor: '#0a0a0a',
+        backgroundColor: '#454545ff',
         color: '#e0e0e0',
         padding: '40px 20px',
         textAlign: 'center',
-        fontFamily: 'Arial, sans-serif',
+        // fontFamily: 'Arial, sans-serif',
         boxShadow: '0 -4px 20px rgba(0, 188, 212, 0.4)',
       }}
     >
@@ -18,8 +18,8 @@ const Footer = () => {
           marginBottom: '20px',
           color: '#00ff99',
           fontSize: '28px',
-          textShadow: '0 0 1px #00ff99, 0 0 5px #00bcd4',
-          animation: 'glow 2s infinite alternate',
+          // textShadow: '0 0 1px #00ff99, 0 0 5px #00bcd4',
+          // animation: 'glow 2s infinite alternate',
         }}
       >
         DaVerse
@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div style={{ fontSize: '14px', color: '#666' }}>
+      <div style={{ fontSize: '14px', color: '#838383ff' }}>
         <p>© 2025 DaVerse. All Rights Reserved.</p>
       </div>
 
