@@ -18,12 +18,13 @@ const Footer = () => {
           marginBottom: '20px',
           color: '#00ff99',
           fontSize: '28px',
-          textShadow: '0 0 15px #00ff99, 0 0 25px #00bcd4',
+          textShadow: '0 0 1px #00ff99, 0 0 5px #00bcd4',
           animation: 'glow 2s infinite alternate',
         }}
       >
         DaVerse
       </h2>
+      
 
       {/* Contact Section */}
       <div style={{ marginBottom: '25px', fontSize: '16px', lineHeight: '1.8' }}>
