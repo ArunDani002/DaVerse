@@ -12,6 +12,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <ScrollToTop /> {/* Add this component here */}
+            {/* gittest */}
             <NavBar />
             <Routes>
                 <Route path="/" element={<Home />} />
